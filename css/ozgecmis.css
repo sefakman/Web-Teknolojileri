@@ -1,0 +1,200 @@
+body{
+	background: rgb(221 221 221);
+}
+
+nav{
+	height: 60px;
+	border:1px solid black;
+	margin:auto;
+	margin-top: 10px;
+	font-size: 250%;
+	text-align: center;
+	background: rgb(255 0 0);
+	font-style: italic;	
+}
+header{
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 250%;
+	letter-spacing: 10px;
+}
+section{
+	width: 33%;
+	height: 360px;
+	border: 1px solid black;
+	margin-top: 10px;
+	float: left;
+	background-color: rgb(242 242 242);
+}
+section[name=orta]{
+	width: 35%;
+	height: 360px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+aside{
+	width: 30%;
+	height: 360px;
+	border: 1px solid black;
+	margin-top: 10px;
+	float: right;
+	background-color: rgb(242 242 242);
+}
+footer{
+	height: 98px;
+	border: 1px solid black;
+	margin-top: 380px;
+	background-color: rgb(242 242 242);
+}
+h1{
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10px;
+	text-decoration: underline;
+	color: rgb(0 0 139);
+}
+h1[name=footer]{
+	font-size: 170%;
+	margin-top: 2px;
+}
+h3{
+	font-size: 150%;
+	text-align: center;
+}
+h3[name=footer]{
+	font-size: 120%;
+	margin-top: -10px;
+}
+h5{
+	font-size: 100%;
+	text-align: center;
+	margin-top: -5px;
+}
+h5[name=footer]{
+	margin-top: -10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding: 1%;
+}
+p{
+	text-align: center;
+	font-size: 150%;
+}
+
+@media screen and (max-width: 500px){
+
+body{
+	background: lightblue;
+}
+nav{	
+	font-size: 160%;
+	background-color: black;
+}
+header{
+	background-color: yellow;
+}
+section{
+	width: 48%;
+	height: 360px;
+	border: 1px solid black;
+	margin-top: 10px;
+	float: left;
+	background-color: rgb(242 242 242);
+}
+section[name=orta]{
+	width: 48%;
+	height: 360px;
+	float: right;
+	margin-right: 0px;
+}
+aside{
+	width: 48%;
+	height: 300px;
+	border: 1px solid black;
+	margin-top: 10px;
+	float: left;
+	background-color: rgb(242 242 242);
+}
+footer{
+	width: 47%;
+	height: 300px;
+	border: 1px solid black;
+	margin-top: 10px;
+	float: right;
+	background-color: rgb(242 242 242);
+}
+h1{
+	color: red;
+}
+h1[name=footer]{
+	font-size: 190%;
+	margin-top: 10px;
+}
+h3{
+	font-size: 100%;
+	text-align: center;
+}
+h3[name=footer]{
+	font-size: 120%;
+	margin-top: 25px;
+}
+h5[name=footer]{
+	font-size: 90%;
+	margin-top: -10px;
+}
+}
+
+@media screen and (min-width: 501px) and (max-width: 1365px){
+
+body{
+	background: red;
+}
+nav{	
+	height: 100%;
+	font-size: 160%;
+	background-color: white;
+}
+header{
+	background-color: lightblue;
+}
+section{
+	width: 100%;
+	height: 360px;
+	float: none;
+	background-color: white;
+}
+section[name=orta]{
+	width: 100%;
+	float: none;
+	margin-left: 0px;
+}
+aside{
+	width: 100%;
+	height: 300px;
+	float: none;
+	background-color: white;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	float: none;
+	margin-top: 10px;
+	background-color: white;
+}
+h1{
+	color: darkgreen;
+}
+a{
+	text-decoration: none;
+	color: black;
+	padding: 1%;
+}	
+}
