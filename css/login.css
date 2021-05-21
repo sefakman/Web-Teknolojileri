@@ -1,0 +1,39 @@
+body{
+	background: rgb(221 221 221);
+}
+#üst{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 250%;
+	letter-spacing: 10px;
+}
+#menu{
+	height: 100%;
+	border:1px solid black;
+	margin:auto;
+	margin-top: 10px;
+	font-size: 250%;
+	text-align: center;
+	background: rgb(255 0 0);
+	font-style: italic;	
+}
+#form{
+	padding:5%;
+	text-align: center;
+	font-size: 200%;
+}
+input{
+	font-size: 100%;	
+}
+input[value=Giriş]{
+	width: 20%;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding: 1%;
+}
